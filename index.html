@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Undangan Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <section class="cover">
+
+        <p class="small-text">THE WEDDING OF</p>
+
+        <h1>Heri Khoerul Anam & Ai Ila Awalya</h1>
+
+        <p class="date">12 Desember 2026</p>
+
+        <div class="guest-box">
+            <p class="guest-text">
+                Kepada Yth.
+            </p>
+            <h2 id="guestNameCover">
+                Bapak/Ibu/Saudara/i
+            </h2>
+
+</div>
+
+        <button id="openInvitation">Buka Undangan</button>
+
+    </section>
+
+    <main id="mainContent" class="hidden">
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-small">
+                WE ARE GETTING MARRIED
+            </p>
+
+            <h1>
+                Heri Khoerul Anam
+                <span>&</span>
+                Ai Ila Awalya
+            </h1>
+
+            <p class="hero-date">
+                12 • 12 • 2026
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="quran-section">
+
+    <p class="quran-label">QS. AR-RUM : 21</p>
+
+    <div class="quran-divider">✦</div>
+
+    <p class="quran-arabic">
+        وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا
+        لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةًۗ
+        اِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ
+    </p>
+
+    <p class="quran-translation">
+        “Dan di antara tanda-tanda kebesaran-Nya ialah Dia menciptakan
+        pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
+        dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu
+        rasa kasih dan sayang.”
+
+    </p>
+
+</section>
+
+<section class="couple-section">
+
+    <p class="couple-label">THE BRIDE & GROOM</p>
+
+    <div class="couple-card">
+
+        <img src="images/groom.jpg" alt="Foto mempelai pria">
+
+        <p class="role">THE GROOM</p>
+
+        <h2>Heri Khoerul Anam</h2>
+
+        <p class="parent-text">
+            Putra bungsu dari<br>
+            Bapak Ohim & Ibu Kartini (Entin)
+        </p>
+
+    </div>
+
+    <div class="couple-symbol">
+        &
+    </div>
+
+    <div class="couple-card">
+
+        <img src="images/bride.jpg" alt="Foto mempelai wanita">
+
+        <p class="role">THE BRIDE</p>
+
+        <h2>Ai Ila Awalya</h2>
+
+        <p class="parent-text">
+            Putri bungsu dari<br>
+            Bapak Entang & Ibu Hayati
+        </p>
+
+    </div>
+
+</section>
+<section class="story-section">
+
+    <p class="story-label">OUR LOVE STORY</p>
+
+    <h2>How It All Began</h2>
+
+    <p class="story-intro">
+        Every love story is beautiful,
+        but ours is our favorite.
+    </p>
+
+
+    <div class="story-item story-left">
+
+    <div class="story-top-heart">♡</div>
+
+    <div class="story-photo">
+        <img src="images/story1.jpg" alt="Cerita pertama">
+    </div>
+
+    <div class="story-bottom-heart">♡</div>
+
+    <p class="story-year">2022</p>
+
+    <h3>First Met</h3>
+
+    <p class="story-text">
+        Awal mula kami bertemu dan mulai saling mengenal.
+    </p>
+
+</div>
+
+
+    <div class="story-item story-right">
+
+    <div class="story-top-heart">♡</div>
+
+    <div class="story-photo">
+        <img src="images/story2.jpg" alt="Cerita kedua">
+    </div>
+
+    <div class="story-bottom-heart">♡</div>
+
+    <p class="story-year">2024</p>
+
+    <h3>Getting Closer</h3>
+
+    <p class="story-text">
+        Waktu membawa kami semakin dekat dan saling memahami.
+    </p>
+
+</div>
+
+
+   <div class="story-item story-left">
+
+    <div class="story-top-heart">♡</div>
+
+    <div class="story-photo">
+        <img src="images/story3.jpg" alt="Cerita ketiga">
+    </div>
+
+    <div class="story-bottom-heart">♡</div>
+
+    <p class="story-year">2026</p>
+
+    <h3>Our Next Chapter</h3>
+
+    <p class="story-text">
+        Kami memutuskan untuk melangkah bersama menuju kehidupan baru.
+    </p>
+
+</div>
+
+</section>
+
+<section class="save-date-section">
+
+    <p class="save-label">
+        SAVE THE DATE
+    </p>
+
+    <div class="big-date">
+
+        <span class="date-number">28</span>
+
+        <span class="date-month">DEC</span>
+
+        <span class="date-year">2026</span>
+
+    </div>
+
+    <p class="save-text">
+        We would love to celebrate this special day with you.
+    </p>
+    <div class="countdown">
+
+    <div class="countdown-item">
+        <span id="days">00</span>
+        <p>Days</p>
+    </div>
+
+    <div class="countdown-item">
+        <span id="hours">00</span>
+        <p>Hours</p>
+    </div>
+
+    <div class="countdown-item">
+        <span id="minutes">00</span>
+        <p>Minutes</p>
+    </div>
+
+    <div class="countdown-item">
+        <span id="seconds">00</span>
+        <p>Seconds</p>
+    </div>
+
+</div>
+    <div class="event-details">
+
+    <div class="event-card">
+        <p class="event-title">AKAD NIKAH</p>
+        <p class="event-time">09.00 WIB</p>
+        <p class="event-day">Senin, 28 Desember 2026</p>
+    </div>
+
+    <div class="event-card">
+        <p class="event-title">RESEPSI</p>
+        <p class="event-time">10.00 WIB</p>
+        <p class="event-day">Senin, 28 Desember 2026</p>
+    </div>
+    <div class="location-box">
+
+    <p class="location-label">LOCATION</p>
+
+    <h3>Kediaman Mempelai Wanita</h3>
+
+    <p class="location-address">
+        Kp. Pojok RT 003 RW 005 Desa Sarimangu
+        Kec. Karangnunggal Kab. Tasikmalaya
+    </p>
+
+    <a
+        href="https://maps.google.com"
+        target="_blank"
+        class="map-button"
+    >
+        Buka Google Maps
+    </a>
+
+</div>
+
+</section>
+
+<section class="gallery-section">
+
+    <p class="gallery-label">OUR GALLERY</p>
+
+    <h2>A Little Glimpse of Us</h2>
+
+    <p class="gallery-intro">
+        A collection of little moments we want to remember forever.
+    </p>
+
+    <div class="gallery-grid">
+
+        <img src="images/gallery1.jpg" alt="Gallery 1">
+
+        <img src="images/gallery2.jpg" alt="Gallery 2">
+
+        <img src="images/gallery3.jpg" alt="Gallery 3">
+
+        <img src="images/gallery4.jpg" alt="Gallery 4">
+
+        <img src="images/gallery5.jpg" alt="Gallery 5">
+
+        <img src="images/gallery6.jpg" alt="Gallery 6">
+
+    </div>
+
+</section>
+<section class="gift-section">
+
+    <p class="gift-label">WEDDING GIFT</p>
+
+    <h2>Send Your Love</h2>
+
+    <p class="gift-intro">
+        Doa dan kehadiran Anda adalah hadiah terbaik bagi kami.
+        Namun jika ingin memberikan tanda kasih, dapat melalui:
+    </p>
+
+    <div class="gift-cards">
+
+        <div class="gift-card">
+
+            <p class="bank-name">BANK BRI</p>
+
+            <p class="account-number">
+                1234567890
+            </p>
+
+            <p class="account-name">
+                HERI KHOERUL ANAM
+            </p>
+
+            <button class="copy-button" data-number="1234567890">
+                Salin Nomor Rekening
+            </button>
+
+        </div>
+
+        <div class="gift-card">
+
+            <p class="bank-name">BANK BRI</p>
+
+            <p class="account-number">
+                0987654321
+            </p>
+
+            <p class="account-name">
+                AI ILA AWALYA
+            </p>
+
+            <button class="copy-button" data-number="0987654321">
+                Salin Nomor Rekening
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="rsvp-section">
+
+    <p class="rsvp-label">RSVP</p>
+
+    <h2>Will You Be There?</h2>
+
+    <p class="rsvp-intro">
+        Mohon konfirmasi kehadiran Anda.
+    </p>
+
+    <form class="rsvp-form" id="rsvpForm">
+
+        <label for="guestName">
+            Nama
+        </label>
+
+        <input
+            type="text"
+            id="guestName"
+            placeholder="Masukkan nama Anda"
+        >
+
+
+        <label for="attendance">
+            Kehadiran
+        </label>
+
+        <select id="attendance">
+
+            <option value="">
+                Pilih kehadiran
+            </option>
+
+            <option value="hadir">
+                Hadir
+            </option>
+
+            <option value="tidak-hadir">
+                Tidak Hadir
+            </option>
+
+        </select>
+
+
+        <label for="guestCount">
+            Jumlah Tamu
+        </label>
+
+        <select id="guestCount">
+
+            <option value="1">
+                1 Orang
+            </option>
+
+            <option value="2">
+                2 Orang
+            </option>
+
+            <option value="3">
+                3 Orang
+            </option>
+
+            <option value="4">
+                4 Orang
+            </option>
+
+            <option value="5">
+                5 Orang
+            </option>
+
+        </select>
+
+
+        <label for="message">
+            Ucapan & Doa
+        </label>
+
+        <textarea
+            id="message"
+            rows="5"
+            placeholder="Tuliskan ucapan untuk kedua mempelai..."
+        ></textarea>
+
+
+        <button type="submit" class="rsvp-button">
+            Kirim Konfirmasi
+        </button>
+        <p id="rsvpMessage" class="rsvp-message"></p>
+
+    </form>
+
+</section>
+<section class="closing-section">
+
+    <div class="closing-content">
+
+        <p class="closing-small">
+            THANK YOU
+        </p>
+
+        <h2>
+            For Being Part of Our Story
+        </h2>
+
+        <p class="closing-text">
+            Merupakan suatu kebahagiaan bagi kami
+            apabila Bapak/Ibu/Saudara/i berkenan hadir
+            dan memberikan doa terbaik.
+        </p>
+
+        <p class="closing-names">
+            Heri & Ai
+        </p>
+
+        <p class="closing-heart">
+            ♡
+        </p>
+
+    </div>
+
+</section>
+</main>
+<div id="lightbox" class="lightbox hidden">
+
+    <button id="closeLightbox" class="lightbox-close">
+        ×
+    </button>
+
+    <img id="lightboxImage" src="" alt="Foto galeri">
+
+</div>
+
+<button id="musicButton" class="music-button hidden">
+    ♪
+</button>
+
+<audio id="backgroundMusic" loop>
+    <source src="audio/music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
